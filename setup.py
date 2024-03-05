@@ -1,4 +1,5 @@
 """Package setup."""
+
 import io
 import re
 
@@ -25,7 +26,7 @@ setup(
         "transformers",
         "numpy",
         "tqdm",
-        "selfies>=0.2.4,<=1.0.0",
+        "selfies",
         "modlamp",
     ],
 )
